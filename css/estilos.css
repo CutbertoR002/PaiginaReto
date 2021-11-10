@@ -1,0 +1,38 @@
+.contenedorPrincipal {
+    background-color: #e2e2e5;
+    margin: 0 ;
+    padding: 0 ;
+}
+.cabecera {
+    background-color: black;
+
+}
+.tituloPrincipal {
+    text-align:left;
+    color: #fff;
+    margin: 0 ;
+}
+.sinEnlace {
+    font-size: 30px;
+    text-align:center;
+    color: #fff;
+    margin: 0 ;
+    word-spacing: 20px;
+}
+.sinEnlace1 {
+    font-size: 20px;
+    text-align:left;
+    color: #8080ff;
+    margin: 0 ;
+    word-spacing: 2px;
+}
+.figura {
+    margin: 1% 35%;
+}
+
+.imagen {
+    border-style: ridge;
+    border-color: #2878ad;
+    border-width: 1px;
+    width: 150%;
+}
