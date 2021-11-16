@@ -1,38 +1,201 @@
 .contenedorPrincipal {
-    background-color: #e2e2e5;
+    background-color: #ffffff;
     margin: 0 ;
     padding: 0 ;
 }
 .cabecera {
-    background-color: black;
-
+    width: 100%;
+    padding: 40px 0;
+    background-color: #fff; 
 }
-.tituloPrincipal {
-    text-align:left;
-    color: #fff;
-    margin: 0 ;
+.headersig{
+    max-width: 1360px;
+    position: relative;
+    margin: auto;
 }
-.sinEnlace {
-    font-size: 30px;
-    text-align:center;
-    color: #fff;
-    margin: 0 ;
-    word-spacing: 20px;
+.headersig2{
+    display: flex;
+    align-items: center;
+    color: #243561;
 }
-.sinEnlace1 {
+.logo{
+    width: 194px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+.contenedormenu1{
+    width: calc(100% - 194px);
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;  
+    justify-content: space-between;
+    transition: opacity .4s,visibility .4s;
+    color: #243561;
+}
+.contenedornav1{
+    width: 70%;
+    padding: 0 25px 0 20px;
+    color: #243561;
+}
+.nav{
+    text-align: center;
+    word-spacing:50px;
+    padding: 10px;
+}
+.sinEnlace{
     font-size: 20px;
-    text-align:left;
-    color: #8080ff;
-    margin: 0 ;
-    word-spacing: 2px;
-}
-.figura {
-    margin: 1% 35%;
+    word-spacing: 0px;
 }
 
-.imagen {
-    border-style: ridge;
-    border-color: #2878ad;
-    border-width: 1px;
-    width: 150%;
+.tabla1{
+    font-size: 24px;
+    text-align: center;
+    width: 7cm;
+    height: 1.5cm;
+    color: #1d93fe;
+}
+.color{
+    background-color: #1d93fe;
+    color: rgb(255, 255, 255);
+}
+
+.hero{
+    padding: 42px 0 83px;
+    position: relative;
+}
+.heroShell{
+    max-width: 1360px;
+    margin: auto;
+}
+.heroinner{
+    display: flex;
+}
+.herobody{
+    width: 52.54%;
+    padding-left: 8.3%;
+    padding-left: 8.3%;
+}
+.heroPrimerCont{
+    margin: 0;
+    box-sizing: border-box;
+}
+.herobutton{
+    margin-top: 88px;
+    max-width: 213px;
+}
+.boton{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+    background: #1d93fe;
+    padding: 14px 20px;
+    min-width: 154px;
+    width: 100%;    
+}
+.config{
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.heroimg{
+    width: 86%;
+    pointer-events: none;
+    transition: all .4s;
+}
+.orientat{
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+.secBanner{
+    position: relative;
+    padding: 75px 0;
+    background-color: #f7faff;
+    overflow: hidden;   
+    line-height: 0;
+
+}
+.shell{
+    max-width: 1200px;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;        
+    margin: auto;
+    width: 100%;
+}
+.contenshell{
+    max-width: 752px;
+    margin-left: auto;  
+    padding: 0;
+
+}
+.primcont{
+    width: 25%;
+    padding: 64px 22px 0;
+    list-style: none;
+}
+.list-partners{
+    list-style: none;
+    display: flex;
+    margin: -64px -22px 0;
+    align-items: center;
+    padding: 0;
+    
+}
+.configjpg{
+    width: 25%;
+    padding: 64px 22px 0;
+}
+.configjpg2{
+    width: 25%;
+    padding: 64px 22px 0;
+}
+.configjpg3{
+    width: 25%;
+    padding: 64px 22px 0;
+}
+.configjpg4{
+    width: 25%;
+    padding: 64px 22px 0;
+}
+.section2{
+    max-width: 1144px;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    width: 100%;
+}
+.header2{
+    display: flex;
+    margin-bottom: 74px;
+    margin-bottom: 74px;
+    transition: all .4s;
+}
+.title2{
+    width: 100%;
+    max-width: 330px;
+    padding-right: 20px;
+    font-size: 32px;
+}
+.secdescrip{
+    width: calc(100% - 330px);
+    padding-left: 112px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 1cm;
+}
+.section__image{
+    margin-bottom: 67px;
+    margin-left: -56px;
 }
