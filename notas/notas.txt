@@ -1,0 +1,35 @@
+                                <ul  class="menu">
+                                    <li class="menu__item1" >
+                                        Features
+                                    </li>
+                                    <li class="menu__item2" >
+                                        How it works
+                                    </li>
+                                    <li class="menu__item2" >
+                                        Pricing
+                                    </li>
+                                    <li class="menu__item2" >
+                                        About us
+                                    </li>
+                                    <li class="menu__item2" >
+                                        Support
+                                    </li>
+                                </ul>
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    display: block;
+
+    color: #243561;
+
+
+
+    <ul class="list-actions">
+                            <li class="desktop-only">
+                                Sign in
+                            </li>
+                            <li class="desktop-only1">
+                                Get started
+                            </li>
+                        </ul>
